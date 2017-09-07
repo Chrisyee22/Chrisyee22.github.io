@@ -3,42 +3,74 @@
   <head>
     <meta charset="utf-8">
     <title>Portforlio | Chris Yee</title>
-  </head>
+    <meta name="viewport:" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-blue.min.css"/>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!--font awesome  -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    </head>
   <body>
-    <header id="portfolio-header">
+    <header id="portfolio-header" class="mdl-layout__header mdl-layout__header--transparent">
+
       <h1>Chris Yee</h1>
       <p id="slogan">Shredding the gnar through the full stack </p>
     </header>
-    <main>
+    <main class="mdl-layout_content mdl-grid">
 
-        <div class="project featured-project">
-          <img src="http://lorempixel.com/400/200/" alt="project screenshot">
-            <h2>Featured Project Name</h2>
-            <p>Project description text</p>
+        <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+           <div class="mdl-card__media mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
+              <img src="http://lorempixel.com/400/200/" alt="project screenshot"/>
+            </div>
+            <div class="mdl-cell mdl-cell--7-col">
+              <h2 class="mdl-card__title-text">Featured Project Name</h2>
+              <p class="project-description mdl-card__supporting-text">Project description text</p>
+            </div>
+          </div>
+
+        <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+          <div class="mdl-card__media">
+            <img src="http://lorempixel.com/400/200/" alt="project screenshot"/>
+          </div>
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Project Name</h2>
+          </div>
+          <div class="mdl-card__supporting-text">Project description text</div>
         </div>
 
-        <div class="project">
-          <img src="http://lorempixel.com/400/200/" alt="project screenshot">
-          <h2>Project Name</h2>
-          <p>Project description text</p>
+        <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+          <div class="mdl-card__media">
+            <img src="http://lorempixel.com/400/200" alt="project screenshot"/>
+          </div>
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Project Name</h2>
+          </div>
+          <div class="mdl-card__supporting-text">Project description text</div>
         </div>
 
-        <div class="project">
-          <img src="http://lorempixel.com/g/400/200" alt="project screenshot">
-          <h2>Project Name</h2>
-          <p>Project descrition text</p>
+        <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+          <div class="mdl-card__media">
+            <img src="http://lorempixel.com/400/200" alt="project screenshot"/>
+          </div>
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Project Name</h2>
+          </div>
+          <div class="mdl-card__supporting-text">Project description text</div>
         </div>
 
-        <div class="project">
-          <img src="http://lorempixel.com/g/400/200" alt="project screenshot">
-          <h2>Project Name</h2>
-          <p>Project description text</p>
-        </div>
     </main>
-    <footer id="Connect">
-      <ul id="footer-links">
-        <li> <a href="https://github.com/Chrisyee22"> GitHub</a></li>
-        <li><a href="chris.anthony.yee@gmail.com">Email</a></li>
+    <footer id="connect" class="mdl-mini-footer">
+      <ul id="footer-links" class="mdl-mini-footer_link-list">
+        <li>
+          <a href="https://github.com/Chrisyee22">
+            <i class="fa fa-github-square" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li><a href="mailto:chris.anthony.yee@gmail.com">
+        <i class="fa fa-envelope-square" aria-hidden="true"></i>
+        </a></li>
       </ul>
 
 
