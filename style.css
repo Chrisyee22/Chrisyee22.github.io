@@ -7,14 +7,19 @@ header#portfolio-header {
 }
 
 h1{
-  color: hsla (0, 0%, 100%, 0.9);
+
+  color: #ffffff;
   font-weight: bold;
 }
 #slogan {
-  color: hsla (0, 0%, 100%, 0.7);
+  color: #ffffff;
   font-weight: lighter;
   font-size:1.6rem;
 }
+#test{
+  opacity: 0.9;
+}
+
 
 main{
   max-width: 900px;
@@ -49,7 +54,7 @@ footer#connect{
 }
 body{
   padding-bottom: 50px;
-  background-image: url("https://i.pinimg.com/736x/00/39/b5/0039b56649428437a33c36e29f4e6427--underwater-images-images-photos.jpg");
+  background-image: url("https://static1.squarespace.com/static/57241ebc3c44d8676af56d36/t/573a0fa32fe131b2351ad410/1463422885635/saskatchewan-fields.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
