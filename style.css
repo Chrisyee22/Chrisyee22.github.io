@@ -19,6 +19,10 @@ h1{
   opacity: 0.9;
 }
 
+.mdl-card__media > img {
+  max-width: 100%;
+}
+
 
 main{
   max-width: 900px;
