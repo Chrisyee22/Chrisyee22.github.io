@@ -6,7 +6,9 @@ header#portfolio-header {
 
 }
 
-
+#name{
+  color: red;
+}
 h1{
   color: #ffffff;
   font-weight: bold;
@@ -64,10 +66,11 @@ footer#connect{
     display:flex;
   }
 }
-body{
-  padding-bottom: 50px;
-  background-image: url("http://drive.google.com/uc?export=view&id=1qM6d7E_jLwgszdNMeLJpOOnfFEue7I0l");
-  background-repeat: no-repeat;
-  background-size: cover;
 
+html {
+  background: url("http://drive.google.com/uc?export=view&id=1qM6d7E_jLwgszdNMeLJpOOnfFEue7I0l") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
