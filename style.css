@@ -23,12 +23,16 @@ h1{
 }
 
 .img {
-    padding:15px;
+  object-fit: fill;
+        height:100%;
+        width:100%;
+	
+    /* padding:15px;
     object-fit: contain;
     width:  250px;
     height: 250px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .mdl-card__title {
