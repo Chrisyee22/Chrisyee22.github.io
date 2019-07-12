@@ -5,7 +5,9 @@ header#portfolio-header {
   text-align: center;
 
 }
-
+.mdl-card__supporting-text{
+  padding-bottom: 30px;
+}
 #name{
   color: #e01d1d;
 }
