@@ -1,5 +1,5 @@
 header#portfolio-header {
-  height: 35vh;
+  /* height: 35vh; */
   justify-content: center;
   text-align: center;
 
@@ -18,7 +18,7 @@ h1{
 #slogan {
   color: #ffffff;
   font-weight: lighter;
-  font-size:1.6rem;
+  font-size:1.3rem;
 }
 #test{
   opacity: 0.9;
