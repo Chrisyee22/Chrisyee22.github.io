@@ -10,7 +10,7 @@ header#portfolio-header {
 #name{
   color: #e01d1d;
 }
-h1{
+h4{
   color: #ffffff;
   font-weight: bold;
   font-family: 'Libre Baskerville', serif;
@@ -114,11 +114,17 @@ a{
   font-size: 12px;
 }
  body{
-   font-family: 'Libre Baskerville', serif;
+   height: 100%;
 
+width:100%;
+
+overflow:hidden;
+   font-family: 'Libre Baskerville', serif;
  }
+
 html {
   background-color: #000000;
+
   /* background: url("http://drive.google.com/uc?export=view&id=1qM6d7E_jLwgszdNMeLJpOOnfFEue7I0l") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
