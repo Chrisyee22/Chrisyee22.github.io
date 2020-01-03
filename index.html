@@ -1,93 +1,162 @@
-<!DOCTYPE html>
-<html>
-  <head>
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Portfolio | Chris Yee</title>
-    <meta name="viewport:" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-blue.min.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!--font awesome  -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- custom css -->
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
 
+    <title>Portfolio</title>
+</head>
 
-    <header id="portfolio-header" class="mdl-layout__header mdl-layout__header--transparent">
-      <div class="topnav">
-        <a href="https://github.com/Chrisyee22">Github</a>
-        <a href="mailto:chris.anthony.yee@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/christopher-yee-220/">Linkedin</a>
-      </div>
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="#" class="navbar-brand">Portfolio</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="https://github.com/Chrisyee22" class="nav-link">GITHUB</a>
+                </li>
+                <li class="nav-item">
+                    <a href="mailto:chris.anthony.yee@gmail.com" class="nav-link">EMAIL</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/christopher-yee-220/" class="nav-link">LINKEDIN</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-      <p id="slogan"><h4>Hi, I'm <span id="name">Christopher Yee</span>. <br>I'm a fullstack developer who specializes in solving problems.</h4></p>
-    </header>
-    <main class="mdl-layout__content mdl-grid">
+    <section class="container-fluid px-0">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+                    <p id="slogan"><h4>Hi, I'm <span id="name">Christopher Yee</span>. <br>I'm a fullstack developer who works with the MERN stack as well as Ruby on Rails. I love building building anything from small Javascript games to full websites. Feel free to reach out to me if you wanna know more about me or my dogs. </h4></p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="imgs/vintageGames.jpg" alt="">
+            </div>
+        </div>
+    </section>
 
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-        <div class="img">
-          <img src="http://drive.google.com/uc?export=view&id=1b7va7ZVsQEJu4Y7x5UeZEYsRlYl1XMn_" alt="project screenshot" />
+    <section class="container-fluid px-0">
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="imgs/TVApp.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2><a href="https://peaceful-brushlands-81365.herokuapp.com">Top TV</a></h2>
+                        <img src="imgs/pawprint.png" alt="" class="d-none d-lg-inline pawprint">
+                        <p class="lead">This web app shows the user which tv shows are trending as the most popular. It also allows the user to search for a show and find out ways they can watch it. Built using an Ruby on Rails and The Movie DB API.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text"><a href="https://peaceful-brushlands-81365.herokuapp.com">TV App</a></h2>
+        <div class="row align-items-center content">
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2><a href="https://keen-shockley-192c90.netlify.com">Pong Game</a></h2>
+                        <img src="imgs/pawprint.png" alt="" class="d-none d-lg-inline pawprint">
+                        <p class="lead">The classic Pong game that everyone loves with a splash of color. Test your skills against the computer opponent to see if you've got what it takes to win the 70's classic. Built with Javascript and JQuery.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="imgs/ClassicPong.jpg" alt="" class="img-fluid">
+            </div>
         </div>
-        <div class="project-description mdl-card__supporting-text">The top TV shows are and more. Built using an Ruby on Rails and The Movie DB API.<a href="https://github.com/Chrisyee22/tv-app"> Link to the code</a></div>
-      </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="imgs/Grocery_list.jpg.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2><a href="https://shrouded-mesa-44569.herokuapp.com">Grocery List</a></h2>
+                        <img src="imgs/pawprint.png" alt="" class="d-none d-lg-inline pawprint">
+                        <p class="lead">The Grocery List app is mobile friendly and allows users to share a grocery list to make shopping faster.Simply sign in with a shared ID and password and you can divide and conquer that shopping list. Built with Ruby on Rails</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2><a href="https://lit-retreat-93375.herokuapp.com">The Forum</a></h2>
+                        <img src="imgs/pawprint.png" alt="" class="d-none d-lg-inline pawprint">
+                        <p class="lead">Want to post a link on a message board and share it with friends? The Forum is the place to share links and discussions. Built with Ruby on Rails.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="imgs/TheForum.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="imgs/MusicPlayer.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>Music Player App</h2>
+                        <img src="imgs/pawprint.png" alt="" class="d-none d-lg-inline pawprint">
+                        <p class="lead">A simple music player app that was built with AngularJS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>Blocipedia</h2>
+                        <img src="imgs/pawprint.png" alt="" class="d-none d-lg-inline pawprint">
+                        <p class="lead">An assignment to build a wiki-clone that runs off of Ruby on Rails.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="imgs/Blocipedia.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-        <div class="img">
-          <img src="https://drive.google.com/uc?export=view&id=137_FzRfD7kpW3uVSNtwj9yMNGS_IhCRk" alt="project screenshot" />
-        </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text"><a href="https://keen-shockley-192c90.netlify.com">Pong Game</a></h2>
-        </div>
-        <div class="project-description mdl-card__supporting-text">The classic Pong game with some fun colors. Built with Javascript and JQuery.<a href="https://github.com/Chrisyee22/Bloc-Pong"> Link to the code</a></div>
-      </div>
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
 
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-        <div class="img">
-          <img src="http://drive.google.com/uc?export=view&id=1rlEdvXThWiI9_LEeViHadWztwrigWDaf" alt="project screenshot" />
-        </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text"><a href="https://shrouded-mesa-44569.herokuapp.com">Grocery List</a></h2>
-        </div>
-        <div class="project-description mdl-card__supporting-text">A mobile compatible app to make group shopping easier using Ruby on Rails.<a href="https://github.com/Chrisyee22/Bloclist">Link to the code</a></div>
-      </div>
-
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-        <div class="img">
-          <img src="https://drive.google.com/uc?export=view&id=1dYAl52Fv4bkyoFm68ktuvo-yul2PO6H7" alt="project screenshot" />
-        </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text"><a href="https://lit-retreat-93375.herokuapp.com">The Forum</a></h2>
-        </div>
-        <div class="project-description mdl-card__supporting-text">An app where members can post links running on Rails.<a href="https://github.com/Chrisyee22/Bloccit">Link to the code</a> </div>
-      </div>
-
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-        <div class="img">
-          <img src="https://drive.google.com/uc?export=view&id=10ToGqvjG5Rdm8iTQT2Tc3Pp2mPAVV1Xu" alt="project screenshot" />
-        </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text"><a href="https://github.com/Chrisyee22/Bloc-Jams-AngularJS/tree/master/app">Music Player App</a></h2>
-        </div>
-        <div class="project-description mdl-card__supporting-text">A music player built with Javascript and AngularJS.<a href="https://github.com/Chrisyee22/Bloc-Jams-AngularJS/tree/master/app">Link to the code</a></div>
-      </div>
-
-      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-        <div class="img">
-          <img src="https://drive.google.com/uc?export=view&id=1UBdyJPfubFNkJFBVTlMhpcawD6pb4mx-" alt="project screenshot" />
-        </div>
-        <div class="mdl-card__title">
-          <h2 class="mdl-card__title-text"><a href="https://github.com/Chrisyee22/Blocipedia">Blocipedia</a></h2>
-        </div>
-        <div class="project-description mdl-card__supporting-text">A wiki-clone that runs off of Ruby on Rails.<a href="https://github.com/Chrisyee22/Blocipedia">Link to the code</a></div>
-      </div>
-
-    </main>
-
-  </body>
 </html>

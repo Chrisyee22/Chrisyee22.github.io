@@ -1,133 +1,76 @@
-header#portfolio-header {
-  /* height: 35vh; */
-  justify-content: center;
-  text-align: center;
 
-}
-.mdl-card__supporting-text{
-  padding-bottom: 30px;
-}
-#name{
-  color: #e01d1d;
-}
-h4{
-  color: #ffffff;
-  font-weight: bold;
-  font-family: 'Libre Baskerville', serif;
-}
-#slogan {
-  color: #ffffff;
-  font-weight: lighter;
-  font-size:1.3rem;
-}
-#test{
-  opacity: 0.9;
-}
-img{
-  height: 200px;
-}
-.img {
-  object-fit: fill;
-        height:100%;
-        width:100%;
+body {
+    background: #335a91;
+    font-family: "Nunito", sans-serif;
 }
 
-.mdl-card__title {
-  background-color: #b3abac;
-  border: none;
-  color: black;
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition: 0.3s;
-}
-.mdl-card__title:hover {
-  background-color: #d1cbcc;
-  color: white;
+.blurb h2 {
+   color: white;
+   font-weight: 100;
+   font-size: 2.5rem;
 }
 
-main{
-  max-width: 900px;
-
-}
-.project-description{
-  padding-left:0;
-
+.blurb p {
+    color: white;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
 }
 
-.project img{
-  width: 100%;
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-header#connect{
-  bottom:0;
-  padding: 0.5rem;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-
-#header-links{
-  margin: auto;
-  font-size:2rem;
-}
-
-@media screen and (max-width: 1024px){
-  header#portfolio-header{
-    display:flex;
-  }
-}
-
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-
-}
-
-a{
-  color:black;
-}
-
-.topnav a {
-  float: center;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #a80821;
-  color: white;
-}
-
-.mdl-card__supporting-text{
-  padding-left: 10px;
-  font-size: 12px;
-}
- body{
-   height: 100%;
-
-width:100%;
-
-overflow:hidden;
-   font-family: 'Libre Baskerville', serif;
+ .pawprint {
+   width: 40px;
+   height: auto;
  }
 
-html {
-  background-color: #000000;
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
 
-  /* background: url("http://drive.google.com/uc?export=view&id=1qM6d7E_jLwgszdNMeLJpOOnfFEue7I0l") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+a {
+  color: white;
+}
+a:hover {
+  color:#EA1C2C;
+}
+
+.navbar.scrolled {
+    background: #7f81e3;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
 }
